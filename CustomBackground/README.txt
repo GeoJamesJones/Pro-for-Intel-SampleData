@@ -1,0 +1,1 @@
+Image "background.png" was originally downloaded from the esri webpage https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview#image2 on 2/22/2019 at 12:56pm as image "transform-data-analytics-and-data-science-2.jpg". Image was saved as png and renamed "background.png" same date.
