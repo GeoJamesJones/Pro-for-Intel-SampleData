@@ -1,0 +1,7 @@
+﻿"Name","GIS Name","GIS Length","Search","Search Before","Search After","Matches","Keyword","Keyword Include","Keyword Case Sensitive","Capture Control","Capture Number","Capture Stop String","Stop String Include","Stop String Case Sensitive"
+"Date","Date","254","near_locations","200","0","keep_first","Date of Occurrence:","false","true","stop_string","0","Reference Number:","false","true"
+"Reference","Reference","254","near_locations","100","0","keep_first","Reference Number:","false","true","stop_string","0","Geographical Subregion:","false","true"
+"Subregion","Subregion","254","near_locations","100","0","keep_first","Geographical Subregion:","false","true","stop_string","0","Geographical Location:","false","true"
+"Aggressor","Aggressor","254","near_locations","0","100","keep_first","Aggressor:","false","true","stop_string","0","Victim:","false","true"
+"Description","Descriptio","500","near_locations","0","100","keep_first","Description:","false","true","stop_string","0","Date of Occurrence:","false","true"
+"Victim","Victim","254","near_locations","0","100","keep_first","Victim:","false","true","stop_string","0","Description:","false","true"
