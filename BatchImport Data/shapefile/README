@@ -1,0 +1,23 @@
+===============================================================================
+File Location: Lines\CMLines.shp
+Source: Team member created this dataset, 3/15/2018
+Download Time: N/A
+===============================================================================
+File Location: Points\Units.shp
+Source: Team member created this dataset, 3/15/2018
+Download Time: N/A
+===============================================================================
+File Location: Polygons\CMAreas.shp
+Source: Team member created this dataset, 3/15/2018
+Download Time: N/A
+===============================================================================
+File Location: Multipoint\Multipoint_WGS1984.shp
+Source: I created this shapefile by exporting the Geojson\Compare.gdb\Multipoint_WGS1984_Multipoint
+	feature class to shapefile format (Eric Linz, 4/3/2019, approx 15:45)
+Download Time: N/A
+===============================================================================
+File Location: Points_NonWGS1984\Points_Bulgaria_EPSG7803.shp
+Source: I created this shapefile by exporting the Geojson\Compare.gdb\Points_Bulgaria_EPSG7803_Points
+	feature class to shapefile format (Eric Linz, 4/3/2019, approx 16:15)
+Download Time: N/A
+===============================================================================

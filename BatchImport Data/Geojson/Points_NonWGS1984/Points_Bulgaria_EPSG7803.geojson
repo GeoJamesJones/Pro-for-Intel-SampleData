@@ -1,0 +1,59 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:7803"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 681642.3319, 4701559.6829, 0 ]
+      },
+      "properties": {
+        "OBJECTID": 1,
+        "Name": "One"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 670305.1158, 4722291.4214, 0 ]
+      },
+      "properties": {
+        "OBJECTID": 2,
+        "Name": "Two"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 684931.2566, 4755568.7638, 0 ]
+      },
+      "properties": {
+        "OBJECTID": 3,
+        "Name": "Three"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 725512.9203, 4726610.5207, 0 ]
+      },
+      "properties": {
+        "OBJECTID": 4,
+        "Name": "Four"
+      }
+    }
+  ]
+}

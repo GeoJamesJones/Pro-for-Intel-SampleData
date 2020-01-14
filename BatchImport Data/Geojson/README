@@ -1,0 +1,56 @@
+According to GeoJSON spec https://tools.ietf.org/html/rfc7946#section-1.4, 
+GeoJSON has 7 geometry types: "Point", "MultiPoint", "LineString",
+      "MultiLineString", "Polygon", "MultiPolygon", and "GeometryCollection"
+	  
+For each geojson file below, I've listed the unique geometry types.
+
+===============================================================================
+File Location: Polygons\Airports.geojson 
+Source: https://catalog.data.gov/dataset/airports-ebd62
+Download Time: 10/26/2018, 12:49 Pacific
+
+Info from GDAL:
+Unique geometry types: ['MULTIPOLYGON', 'POLYGON']
+Number of features: 13
+
+Notes:
+- I created the associated .lyrx file manually by importing the dataset, setting
+symbology in ArcGIS Pro and then creating .lyrx file.
+
+===============================================================================
+File Location: Lines\Metrorail.geojson 
+Source: https://catalog.data.gov/dataset/metrorail-9e5c7
+Download Time: 10/26/2018, 12:58 Pacific
+
+Info from GDAL:
+Unique geometry types: ['LINESTRING', 'MULTILINESTRING']
+Number of features: 38
+
+Notes:
+- I created the associated .lyrx file manually by importing the dataset, setting
+symbology in ArcGIS Pro and then creating .lyrx file.
+
+===============================================================================
+File Location: Points\Hospitals_and_Urgent_Care_Facilities.geojson 
+Source: https://catalog.data.gov/dataset/hospitals-and-urgent-care-facilities-6d0fc
+Download Time: 10/26/2018, 13:03 Pacific
+
+Info from GDAL:
+Unique geometry types: ['POINT']
+Number of features: 21
+
+Notes:
+- I created the associated .lyrx file manually by importing the dataset, setting
+symbology in ArcGIS Pro and then creating .lyrx file.
+
+===============================================================================
+File Location: Multipoint\Multipoint_WGS1984.geojson 
+Source: I believe I created this file manually by converting a feature class
+	to geojson (Eric Linz)
+Download Time: N/A
+
+===============================================================================
+File Location: Points_NonWGS1984\Points_Bulgaria_EPSG7803.geojson 
+Source: I created this file manually by converting a feature class
+	to geojson (Eric Linz)
+Download Time: N/A

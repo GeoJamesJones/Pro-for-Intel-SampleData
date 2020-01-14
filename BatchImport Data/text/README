@@ -1,0 +1,76 @@
+
+===============================================================================
+File Location: CsvPoints\Police_Calls_for_Service.csv
+Source: http://data-tempegov.opendata.arcgis.com/datasets/ba76da19a5274301bb8a010483aec14a_0.csv
+Download Time: 04/03/2019, 21:35 Pacific
+
+Police Calls for Service
+https://catalog.data.gov/dataset/police-calls-for-service-9a6ec
+
+Police Calls for Service
+Metadata Updated: March 29, 2019 
+
+The Calls for Service dataset includes police service requests for which patrol officers, traffic officers, bike officers and, on occasion, detectives will be dispatched to public safety response. It also includes self-initiated calls for service where an officer witnesses a violation or suspicious activity for which they would respond.Contact: Noah Fritz - Police Analysis [HTML_REMOVED] Administrative ManagerContact E-mailContact Phone: 480-350-8471Link: N/AData Source: Versaterm Informix RMS - CADWSQLData Source Type: Informix and/or SQL ServerPreparation Method: Preparation Method: Automated View pulled from CADWSQL (SQL Server) and duplicated on the GIS ServerPublish Frequency: DailyPublish Method: AutomaticData Dictionary
+
+
+Access & Use Information
+Public: This dataset is intended for public access and use.
+Non-Federal: This dataset is covered by different Terms of Use than Data.gov. See Terms (https://gis.tempe.gov/ordinances/open-data-terms-of-use.pdf) 
+ License: See this page for license information. (http://opendefinition.org/licenses/cc-zero/)
+
+Notes:
+- See Points\open-data-terms-of-use.pdf file for Terms of Use.
+- See Points\CreativeCommonsCCZeroLicense.png for data license information.
+- Original file had almost 950k rows. To keep file size down delete all but the first 2001 rows.
+- Original file had trailing spaces before the comma delimiter and this caused problems with the resulting data having trailing spaces; used notepad++ to replace trailing spaces before the command using the following method (learned of this method here: https://stackoverflow.com/questions/34422502/delimited-files-remove-beginning-and-trailing-whitespace-and-empty-whitespace): 
+- Open file in notepad++
+- Open Replace dialog
+- In Find textbox enter:(\S+)\s+[,]
+- In Replace textbox enter:\1,
+- For Search Mode, click "Regular expression".
+- Click "Replace All".
+- Save the file.
+
+===============================================================================
+File Location: CsvPointsPipe\Police_Calls_for_Service.csv
+Source: See CsvPoints\Police_Calls_for_Service.csv listed above.
+Download Time: See CsvPoints\Police_Calls_for_Service.csv above.
+
+Notes:
+- Copied CsvPoints\Police_Calls_for_Service.csv and replaced commas with a pipe(|).
+- Edited schema.ini to set delimiter as pipe.
+
+===============================================================================
+File Location: TxtPoints\Police_Calls_for_Service.txt
+Source: See CsvPoints\Police_Calls_for_Service.csv listed above.
+Download Time: See CsvPoints\Police_Calls_for_Service.csv above.
+
+Notes:
+- Copied CsvPoints\Police_Calls_for_Service.csv and changed file extention to .txt.
+
+===============================================================================
+File Location: TxtPointsPipe\Police_Calls_for_Service.txt
+Source: See CsvPoints\Police_Calls_for_Service.csv listed above.
+Download Time: See CsvPoints\Police_Calls_for_Service.csv above.
+
+Notes:
+- Copied CsvPointsPipe\Police_Calls_for_Service.csv and changed file extention to .txt.
+- Edited schema.ini to set delimiter as pipe and file extention to .txt.
+
+===============================================================================
+File Location: TabPoints\Police_Calls_for_Service.tab
+Source: See CsvPoints\Police_Calls_for_Service.csv listed above.
+Download Time: See CsvPoints\Police_Calls_for_Service.csv above.
+
+Notes:
+- Copied CsvPoints\Police_Calls_for_Service.csv and changed file extention to .tab.
+- Replaced commas with tabs using the following method in notepad++ (https://superuser.com/questions/1049770/replace-string-with-proper-tab-character-in-notepad):
+- Open file in notepad++
+- Open Replace dialog
+- In Find textbox enter:,
+- In Replace textbox enter:\t
+- For Search Mode, click "Regular expression".
+- Click "Replace All".
+- Save the file.
+
+===============================================================================

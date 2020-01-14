@@ -1,0 +1,24 @@
+
+===============================================================================
+File Location: XlsPoints\AWOIS_Wrecks.xls 
+Source: https://catalog.data.gov/dataset/office-of-coast-survey-wrecks-and-obstructions-databasef9270/resource/5cc6d2d6-6bee-408c-8240-0275475bf440
+Download Time: 04/03/2019, approx. 18:00 Pacific
+
+Office of Coast Survey Wrecks and Obstructions Database
+https://catalog.data.gov/dataset/office-of-coast-survey-wrecks-and-obstructions-databasef9270
+Access & Use Information
+ License: U.S. Government Work https://www.usa.gov/government-works
+
+Notes:
+- There were over 6000 rows in original source; to minimize file size, deleted rows after 501st row.
+- Original geographic location stored in LATDEC and LONDEC columns; changed columns to LATITUDE and LONGITUDE
+- I created the associated .lyrx file manually by importing the dataset, setting symbology in ArcGIS Pro and then creating .lyrx file.
+
+===============================================================================
+File Location: XlsxPoints\AWOIS_Wrecks.xlsx
+Source: Created from XlsPoints\AWOIS_Wrecks.xls listed above.
+
+Notes:
+- Saved XlsPoints\AWOIS_Wrecks.xls as .xlsx format to create XlsxPoints\AWOIS_Wrecks.xlsx.
+
+===============================================================================

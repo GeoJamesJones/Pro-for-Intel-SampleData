@@ -1,0 +1,38 @@
+
+===============================================================================
+File Location: Polygons\wwa.kmz
+Source: https://www.weather.gov/source/crh/shapefiles/wwa.kmz
+Download Time: 04/09/2019, 11:02 Pacific
+
+wwa = NWS Watch Warning Advisory Hazards
+
+US Dept of Commerce
+National Oceanic and Atmospheric Administration
+National Weather Service
+https://www.weather.gov/gis/NWS_KMLFiles
+
+===============================================================================
+File Location: Points\ahps_national_obs.kmz
+Source: https://water.weather.gov/ahps/download.php?data=kmz_obs
+Download Time: 04/09/2019, 12:53 Pacific
+
+"Forecast and Observed AHPS River data" link under Current Weather column,
+River and Flooding section on page https://www.weather.gov/gis/NWS_KMLFiles
+
+US Dept of Commerce
+National Oceanic and Atmospheric Administration
+National Weather Service
+
+===============================================================================
+File Location: Lines\USMaritimeLimitsAndBoundariesKML.kmz
+Source: http://maritimeboundaries.noaa.gov/downloads/USMaritimeLimitsAndBoundariesKML.kmz
+Download Time: 04/09/2019, 14:45 Pacific
+
+Maritime Limits and Boundaries of United States of America
+Metadata Updated: February 27, 2019 
+
+Access & Use Information
+ License: U.S. Government Work (see link: https://www.usa.gov/government-works) 
+ (see DataLicenses\US_Government_Works.png screenshot of webpage).
+
+===============================================================================
