@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20030325</pubdate>
+                <title>Public Libraries</title>
+                <geoform>vector digital data</geoform>
+                <pubinfo>
+                    <pubplace/>
+                    <publish>State Library of North Carolina</publish>
+                </pubinfo>
+                <othercit>NCCGIA distributes this dataset</othercit>
+                <onlink>http://www.nconemap.gov</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>NC Center for Geographic Information and Analysis developed the digital Public Libraries data from addresses provided by the State Library of North Carolina on 3/20/03. This file enables users to identify public library locations. This data covers the entire extent of North Carolina.</abstract>
+            <purpose>This data was created to assist governmental agencies and others in making resource management decisions through use of a Geographic Information System (GIS).</purpose>
+            <supplinf>&gt;system filename: library file size = 0.15 mb &gt; &gt;Revisions and updates to this layer include: &gt;1) filename: libbrnch The 03/25/03 version was the first verion &gt;of this data.</supplinf>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <rngdates>
+                    <begdate>20030318</begdate>
+                    <enddate>20030325</enddate>
+                </rngdates>
+            </timeinfo>
+            <current>Data creation and revision dates</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>As needed</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-84.116839</westbc>
+                <eastbc>-75.636531</eastbc>
+                <northbc>36.539582</northbc>
+                <southbc>33.809097</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Libraries</themekey>
+                <themekey>Public Library</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Category</themekt>
+                <themekey>structure</themekey>
+            </theme>
+            <place>
+                <placekt>William S. Powell, The North Carolina GAZETTEER, A Dictionary of Tar Heel Places, (Chapel Hill: University of North Carolina Press), August 1984.</placekt>
+                <placekey>North Carolina</placekey>
+            </place>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>Acknowledgement of products derived from this data set should cite the following: The source of the Public Libraries data is the North Carolina Corporate Geographic Database. Earlier versions of this data set may exist. The user must be sure to use the appropriate data set for the time period of interest.While efforts have been made to ensure that these data are accurate and reliable within the state of the art, CGIA cannot assume liability for any damages or misrepresentation caused by any inaccuracies in the data or as a result of changes to the data caused by system transfers.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>State Library of North Carolina</cntorg>
+                    <cntper>Timothy Owens</cntper>
+                </cntorgp>
+                <cntpos>Library Consultant</cntpos>
+                <cntaddr>
+                    <addrtype>mailing</addrtype>
+                    <address>4641 Mail Service Center</address>
+                    <city>Raleigh</city>
+                    <state>NC</state>
+                    <postal>27699-4641</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>919-733-2570</cntvoice>
+                <cntfax>919-733-8748</cntfax>
+                <cntemail>towens@library.dcr.state.nc.us</cntemail>
+                <hours>8:00 am to 5:00 pm</hours>
+                <cntinst>Preferred contact is by mail or telephone</cntinst>
+            </cntinfo>
+        </ptcontac>
+    </idinfo>
+    <dataqual>
+        <attracc>
+            <attraccr>Point locations were generated using geocoding in Arcview from the public libraries address list provided by the State Library of North Carolina on 3/20/03. Points that could not be generated using geocoding were interactively added in arcedit using mapquest.com. This digital file is updated as changes occur.</attraccr>
+        </attracc>
+        <logic>Using ESRI's ARC/INFO GIS software, the dataset was built for point topology using the "build" command. Topology has not been edited since the last build or clean.</logic>
+        <complete>These data represent the locations of Public Libraries in North Carolina as listed by the State Library of North Carolina. The locations were either address-matched using ArcView geocoding or matched manually using mapquest.com.</complete>
+        <posacc>
+            <horizpa>
+                <horizpar>The majority of Public Libraries were generated using geocoding in Arcview. The point generated in the processing would be snapped to the road identified in the address field. Therefore, point locations are coincident with the GDT roads data.</horizpar>
+            </horizpa>
+        </posacc>
+        <lineage>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20030325</pubdate>
+                        <title>Public Libraries</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>hardcopyPaper</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <rngdates>
+                            <begdate>20030310</begdate>
+                            <enddate>20030325</enddate>
+                        </rngdates>
+                    </timeinfo>
+                    <srccurr>Original release date and revision date, respectively</srccurr>
+                </srctime>
+                <srccitea>Public Libraries</srccitea>
+                <srccontr>Public Libraries</srccontr>
+            </srcinfo>
+            <procstep>
+                <procdesc>Point locations were generated using geocoding in Arcview from the public libraries address list provided by the State Library of North Carolina on 3/20/03. Points that could not be generated using geocoding were interactively added in arcedit using mapquest.com. This digital file is updated as changes occur.</procdesc>
+                <procdate>20030325</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NC Center for Geographic Information and Analysis</cntorg>
+                            <cntper>Jeffrey Brown</cntper>
+                        </cntorgp>
+                        <cntpos>Project Manager</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>20322 Mail Service Center</address>
+                            <city>Raleigh</city>
+                            <state>North Carolina</state>
+                            <postal>27699</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>919-754-6580</cntvoice>
+                        <cntfax>919-715-8551</cntfax>
+                        <cntemail>dataq@its.nc.gov</cntemail>
+                        <hours>8am to 5pm</hours>
+                        <cntinst>Phone and electronic mail preferred</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <indspref>_Method: None</indspref>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>Entity point</sdtstype>
+                <ptvctcnt>382</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>Public Libraries</enttypl>
+                <enttypd>Point locations of Public Libraries in North Carolina</enttypd>
+                <enttypds>State Library of North Carolina</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>FSCS_ID</attrlabl>
+                <attrdef>Federal public library ID</attrdef>
+                <attrdefs>State Library of North Carolina</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Varies</udom>
+                    				
+                </attrdomv>
+                <attrmfrq>As needed planned</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>PERIMETER</attrlabl>
+                <attrdef>Total perimeter in coverage units</attrdef>
+                <attrdefs>Software computed</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>0.000</rdommin>
+                        						
+                        <rdommax>0.000</rdommax>
+                        						
+                        <attrunit>Meters</attrunit>
+                        						
+                        <attrmres>.001</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+                <attrmfrq>None planned</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>LIB_SYSTEM</attrlabl>
+                <attrdef>Public library system</attrdef>
+                <attrdefs>State Library of North Carolina</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Varies</udom>
+                    				
+                </attrdomv>
+                <attrmfrq>As needed</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>BRNCH_NAME</attrlabl>
+                <attrdef>Public library name</attrdef>
+                <attrdefs>State Library of North Carolina</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Varies</udom>
+                    				
+                </attrdomv>
+                <attrmfrq>As needed</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>ADDRESS</attrlabl>
+                <attrdef>Street address of public library</attrdef>
+                <attrdefs>State Library of North Carolina</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Varies</udom>
+                    				
+                </attrdomv>
+                <attrmfrq>As needed</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>CITY</attrlabl>
+                <attrdef>City of public library</attrdef>
+                <attrdefs>State Library of North Carolina</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Varies</udom>
+                    				
+                </attrdomv>
+                <attrmfrq>None planned</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>COUNTY</attrlabl>
+                <attrdef>County of public library</attrdef>
+                <attrdefs>State Library of North Carolina</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Varies</udom>
+                    				
+                </attrdomv>
+                <attrmfrq>None planned</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>ZIPCODE</attrlabl>
+                <attrdef>Zip code of public library</attrdef>
+                <attrdefs>State Library of North Carolina</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Varies</udom>
+                    				
+                </attrdomv>
+                <attrmfrq>None planned</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>ZIP4</attrlabl>
+                <attrdef>Zip code 4-digit suffix of public library</attrdef>
+                <attrdefs>State Library of North Carolina</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Varies</udom>
+                    				
+                </attrdomv>
+                <attrmfrq>None planned</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>PHONE</attrlabl>
+                <attrdef>Phone number of public library</attrdef>
+                <attrdefs>State Library of North Carolina</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Varies</udom>
+                    				
+                </attrdomv>
+                <attrmfrq>None planned</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>LIB_ID</attrlabl>
+                <attrdef>State public library ID</attrdef>
+                <attrdefs>State Library of North Carolina</attrdefs>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>C-*</edomv>
+                        						
+                        <edomvd>County</edomvd>
+                        						
+                        <edomvds>State Library of North Carolina</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>M-*</edomv>
+                        						
+                        <edomvd>Municipality</edomvd>
+                        						
+                        <edomvds>State Library of North Carolina</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>R-*</edomv>
+                        						
+                        <edomvd>Regional</edomvd>
+                        						
+                        <edomvds>State Library of North Carolina</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrmfrq>As needed planned</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>TYPE</attrlabl>
+                <attrdef>Public library type (Headquarters or Branch)</attrdef>
+                <attrdefs>State Library of North Carolina</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Varies</udom>
+                    				
+                </attrdomv>
+                <attrmfrq>As needed planned</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Coordinates defining the features.</udom>
+                    				
+                </attrdomv>
+            </attr>
+        </detailed>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>NC Center for Geographic Information and Analysis</cntorg>
+                </cntorgp>
+                <cntpos>Database Administration</cntpos>
+                <cntaddr>
+                    <addrtype>mailing</addrtype>
+                    <address>20322 Mail Service Center</address>
+                    <city>Raleigh</city>
+                    <state>North Carolina</state>
+                    <postal>27699</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>919-754-6580</cntvoice>
+                <cntfax>919-715-8551</cntfax>
+                <cntemail>dataq@its.nc.gov</cntemail>
+                <hours>8:30AM - 5:30PM</hours>
+                <cntinst>Phone and electronic mail preferred</cntinst>
+            </cntinfo>
+        </distrib>
+        <distliab>NCCGIA is charged with the development and maintenance of NC OneMap and, in cooperation with other mapping organizations, is committed to offering its users accurate, useful, and current information. Although every effort has been made to ensure the accuracy of information, errors and conditions originating from physical sources used to develop this dataset may be reflected in the data supplied. The user must be aware of possible conditions and bear responsibility for the appropriate use of the information with respect to possible errors, original map scale, collection methodology, currency of data, and other conditions specific to certain data. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. The use of trade names or commercial products does not constitute their endorsement by NCCGIA or North Carolina State Government.</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>ESRI shapefile (*.shp)</formname>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>http://data.nconemap.gov/downloads/vector/publib.zip</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <fees>None. Download from http://www.nconemap.gov is free of charge.</fees>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20110610</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>North Carolina Center for Geographic Information and Analysis</cntorg>
+                    <cntper>David Giordano</cntper>
+                </cntorgp>
+                <cntpos>Database Administration</cntpos>
+                <cntaddr>
+                    <addrtype>mailing</addrtype>
+                    <address>20322 Mail Service Center</address>
+                    <city>Raleigh</city>
+                    <state>North Carolina</state>
+                    <postal>27699</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>919-754-6580</cntvoice>
+                <cntfax>919-715-8551</cntfax>
+                <cntemail>dataq@its.nc.gov</cntemail>
+                <hours>8am to 5pm</hours>
+                <cntinst>Phone and electronic mail preferred</cntinst>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+        <metuc>This metadata file is to accompany the dataset. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. If the dataset described in this metadata record was received from anyone besides NCCGIA, this metadata and the dataset it describes may contain discrepancies.</metuc>
+    </metainfo>
+</metadata>
